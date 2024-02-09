@@ -1,0 +1,136 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation styles */
+  .navigation {
+    background-color: #444;
+    padding: 10px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* AboutMe section styles */
+  .about-me {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .about-me h2 {
+    color: #333;
+  }
+  
+  /* Portfolio section styles */
+  .portfolio {
+    background-color: #eaeaea;
+    padding: 20px;
+  }
+  
+  .portfolio h2 {
+    color: #333;
+  }
+  
+  /* ProjectList styles */
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Project styles */
+  .project {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+  }
+  
+  .project h3 {
+    color: #333;
+  }
+  
+  .project p {
+    color: #666;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .contact h2 {
+    color: #333;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    margin-bottom: 10px;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Resume section styles */
+  .resume {
+    background-color: #eaeaea;
+    padding: 20px;
+  }
+  
+  .resume h2 {
+    color: #333;
+  }
+  
